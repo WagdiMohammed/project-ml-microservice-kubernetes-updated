@@ -1,6 +1,10 @@
-<include a CircleCI status badge, here>
+circleci pass badge:
+hhttps://app.circleci.com/pipelines/github/WagdiMohammed/project-ml-microservice-kubernetes-updated/7/workflows/f20a7e0b-cbef-4a15-8f48-16bd427d5ea4
 
-## Project Overview
+
+## Projepass viewhttps://app.circleci.com/pipelines/github/WagdiMohammed/project-ml-microservice-kubernetes-updated/7/workflows/f20a7e0b-cbef-4a15-8f48-16bd427d5ea4
+
+
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
 
