@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-app
+  namespace: default
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      name: api-app
+  template:
+    metadata:
+      labels:
+        name: api-app
+    spec:
+      containers:
+      - name: api-app
+        image:  wagdy/udacityproject:firsttry
+        ports:
+            - containerPort: 80
+
+            

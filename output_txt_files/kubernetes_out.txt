@@ -1,0 +1,17 @@
+* Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 187-865-223
+172.17.0.1 - - [13/Jun/2020 16:30:24] "GET / HTTP/1.1" 200 -
+[2020-06-13 16:31:49,839] INFO in app: JSON payload: 
+{json_payload}
+[2020-06-13 16:31:49,843] INFO in app: Inference payload DataFrame: 
+{inference_payload}
+[2020-06-13 16:31:49,843] INFO in app: Scaling Payload: 
+{payload}
+172.17.0.1 - - [13/Jun/2020 16:31:49] "POST /predict HTTP/1.1" 200 -
