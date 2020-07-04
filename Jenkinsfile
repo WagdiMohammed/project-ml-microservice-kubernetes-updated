@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh 'echo "Hello World"'
         sh '''
-                     python3 -m venv ~/.devops
+                     python3 -m venv ~/.devops \ 
 	                 source  ~/.devops/bin/activate
                  '''
       }
