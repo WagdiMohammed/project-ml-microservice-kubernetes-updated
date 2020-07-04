@@ -15,11 +15,5 @@ pipeline {
                   sh 'make all'
               }
          }
-         stage('') {
-              steps {
-                  withAWS(region:'us-west-2',credentials:'aws-static') {
-                  
-              }
-         }
      }
 }
