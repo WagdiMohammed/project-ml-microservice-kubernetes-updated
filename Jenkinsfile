@@ -8,7 +8,7 @@ pipeline {
                      python3 -m venv ~/.devops 
             '''
         sh '''
-             source  ~/.devops/bin/activate
+             .  ~/.devops/bin/activate
            '''
       }
     }
